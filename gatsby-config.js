@@ -20,6 +20,9 @@ module.exports = {
                     globPatterns: ['**/*']
                 }
             }
+        },
+        {
+            resolve: "gatsby-plugin-react-head"
         }
     ]
 };

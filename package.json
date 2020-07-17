@@ -12,11 +12,14 @@
   "author": "Aniket Gargya <gargya.aniket@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "@material-ui/core": "^4.11.0",
     "gatsby": "^2.24.3",
     "gatsby-plugin-manifest": "^2.4.18",
     "gatsby-plugin-offline": "^3.2.18",
+    "gatsby-plugin-react-head": "^1.1.0",
+    "normalize.css": "^8.0.1",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-circular-progressbar": "^2.0.3",
+    "react-dom": "^16.13.1",
+    "react-head": "^3.3.0"
   }
 }
