@@ -3,11 +3,11 @@ module.exports = {
         {
             resolve: "gatsby-plugin-manifest",
             options: {
-                name: "GatsbyJS",
-                short_name: "GatsbyJS",
+                name: "Water Tracker",
+                short_name: "Water Tracker",
                 start_url: "/",
-                background_color: "#f7f0eb",
-                theme_color: "#a2466c",
+                background_color: "#b0f7ff",
+                theme_color: "#24daff",
                 display: "standalone",
                 icon: "src/images/icon.png",
                 theme_color_in_head: false,
@@ -16,7 +16,9 @@ module.exports = {
         {
             resolve: "gatsby-plugin-offline",
             options: {
-                precachePages: ["/"],
+                workboxConfig: {
+                    globPatterns: ['**/*']
+                }
             }
         }
     ]
