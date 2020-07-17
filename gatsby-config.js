@@ -4,7 +4,7 @@ module.exports = {
             resolve: "gatsby-plugin-manifest",
             options: {
                 name: "Water Tracker",
-                short_name: "Water Tracker",
+                short_name: "Water",
                 start_url: "/",
                 background_color: "#ffffff",
                 theme_color: "#b0f7ff",
