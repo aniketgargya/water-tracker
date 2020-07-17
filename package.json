@@ -1,0 +1,20 @@
+{
+  "name": "water-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gatsby develop -p 3000 -o",
+    "build": "gatsby build",
+    "start": "gatsby serve"
+  },
+  "keywords": [],
+  "author": "Aniket Gargya <gargya.aniket@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "gatsby": "^2.24.3",
+    "gatsby-plugin-offline": "^3.2.18",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
