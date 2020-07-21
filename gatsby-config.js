@@ -7,7 +7,7 @@ module.exports = {
                 short_name: "Water",
                 start_url: "/",
                 background_color: "#ffffff",
-                theme_color: "#b0f7ff",
+                theme_color: "#000000",
                 display: "standalone",
                 icon: "src/images/icon.png",
                 theme_color_in_head: false,
